@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "repository": "bambabo-cmd/GBC-EstpolisYomigaeruDensetsu",
+  "documented_release": "v0.9 / WIP51 (kr51)",
+  "verification_date": "2026-09-29",
+  "timezone": "Asia/Seoul",
+  "source_rom": {
+    "size": 2097152,
+    "md5": "222AA591B387A4B897B61961EBEB9FDB",
+    "crc32": "54617416",
+    "sha1": "DDE3B4FBBEF61B1E20ABC1D71408F59E6C90E79A",
+    "sha256": "57562CFDC7794C65F1B7F141DF7C13CDFD1C45C6CB27F23A8E78503DEB566E33",
+    "filename": "Estpolis Denki - Yomigaeru Densetsu (Japan).gbc",
+    "platform": "Game Boy Color",
+    "region": "Japan",
+    "representation": "압축을 푼 무수정 원본 전체 파일"
+  },
+  "patches": [
+    {
+      "path": "GBC_Estpolis_Yomigaeru_KR_v0.9_wip51_260929.xdelta",
+      "format": "xdelta",
+      "github_blob_sha": "74ec1a8cd4001650a7bead1d096dcc56aa8a77dc",
+      "patch_checksums": {
+        "size": 276968,
+        "md5": "B5AD05A4A5D8D50FD294D09A42AE91E7",
+        "crc32": "5E4F9AF7",
+        "sha1": "0DA23A5693A759898470C92A9125361D2F8EB0F4",
+        "sha256": "D2C7412F485706E4DE584E08AB5DEEB3CF9A7C0BA9D74A7511B5ADB86A875A23"
+      },
+      "patched_rom": {
+        "size": 4194304,
+        "md5": "D76A0A58DF7EEE1782A8849E35EE0B2E",
+        "crc32": "30283D98",
+        "sha1": "DEBEFAA0EBE295243B80E33A6E81B78BEEC677D8",
+        "sha256": "57F03ECB4B53A741C6CF297F0EE4856A03844EE85AC5716D3E44A48C2FE05E74"
+      },
+      "verification": "업로드된 Git blob SHA와 로컬 패치 일치 확인 후 지원 원본에 직접 재적용. 결과 전체 파일의 체크섬 계산."
+    }
+  ],
+  "history": {
+    "first_work_date": "2026-09-10",
+    "earliest_verified_record_date": "2026-09-10",
+    "date_evidence": "로컬 Git 최초 커밋 2d203d2, 2026-09-10 00:13:10 +09:00: 초기 조사·메뉴 추출·한글 표시 PoC. 최초로 확인되는 작업 기록 기준.",
+    "revision_label": "v0.9 / WIP51 (kr51)",
+    "recorded_revision_count": 4,
+    "recorded_revision_ids": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "revision_count_definition": "번호가 붙은 보존 ROM·패치·문서의 고유 버전 수. 실패/철회 후보 포함 가능. 실제 수정 작업 횟수와 다름. Front Mission은 WIP_INDEX, Scurge는 001~010 작업 기록을 사용. 공통 규칙 파일/외부 도구 날짜 제외.",
+    "total_modification_count": null,
+    "release_work_date": "2026-09-29",
+    "final_project_completion_date": null,
+    "completion_status": "전체 작업 완료 기록 미확정; 진행 중인 검수와 알려진 한계를 보존",
+    "additional_context": "메뉴·대사 전체 한글화 기록과 게임 전체 검증 완료 여부를 구분한다."
+  },
+  "verification_scope": "파일 식별 및 패치 적용 결과 검증. 이번 문서 작업에서 에뮬레이터 실행/전체 플레이 검증을 새로 수행한 것은 아님.",
+  "known_limitations": "WIP49는 이름 저장 문제가 있어 사용하지 않는다. 이미 손상되어 저장된 이름은 자동으로 원래 이름으로 복구되지 않는다. 다른 버전의 즉시저장 대신 게임 내 세이브를 사용한다. 전체 게임 자연 진행 완료일은 미확정."
+}
